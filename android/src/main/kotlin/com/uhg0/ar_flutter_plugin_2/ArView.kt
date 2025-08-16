@@ -500,7 +500,7 @@ class ArView(
                         if (node != null) {
                             var anchorName: String? = null
                             var currentNode: Node? = node
-                            var nodeName node.name;
+                            val nodeName = node.name;
                             while (currentNode != null) {
                                 anchorNodesMap.forEach { (name, anchorNode) ->
                                     if (currentNode == anchorNode) {
